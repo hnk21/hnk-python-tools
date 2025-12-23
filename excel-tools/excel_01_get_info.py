@@ -19,10 +19,8 @@ def getExcelInfo(folderToSearch):
 
             for f in files:
                 if ".csv" in f:
-                    # df = pd.read_csv(root + "\\" + f)
                     df = pd.read_csv(root + "/" + f)
                 elif ".xlsx" in f:
-                    # df = pd.read_excel(root + "\\" + f)
                     df = pd.read_excel(root + "/" + f)
 
                 if df is not None:
