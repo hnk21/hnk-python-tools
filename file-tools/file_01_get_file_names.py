@@ -5,8 +5,15 @@ print(">>> Executing script to get file names.\n")
 
 print("> Please select the target folder.")
 
-folder_to_search = filedialog.askdirectory(title = "Select Folder")
-print(f"> Selected folder: {folder_to_search}\n")
+folder_empty = True
+while folder_empty:
+    folder_to_search = filedialog.askdirectory(title = "Select Folder")
+    print(f"> Selected folder: {folder_to_search}\n")
+
+    folder_empty = len(os.listdir(folder_to_search)) == 0
+    if folder_empty:
+        print("> Selected folder is empty, please select a folder that contains files.")
+
 log_file = folder_to_search + "_file_names.txt"
 
 # Find the folder to be searched
