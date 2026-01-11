@@ -1,9 +1,7 @@
 # hnk-python-tools
 Personal repository of Python scripts developed for productivity related tasks.
 
-Actively updating this as of 2025-12-22
-
-Files tagged with 1x (e.g. 11) are not committed to this repository yet.
+Last updated 2026-01-11
 
 ## excel-tools
 ### excel_01_get_info.py
@@ -22,10 +20,14 @@ Files tagged with 1x (e.g. 11) are not committed to this repository yet.
     - The script will produce 3 files of 100,000 rows each and 1 file of 21,000 rows
 
 ### excel_11_data_entry_tool.py
-- In development, a simple datatable entry tool, will develop this into something bigger if I happen to find a cool and useful use case.
+- A simple datatable entry tool, will develop this into something bigger if I happen to find a cool and useful use case.
+- Not committed to this repository yet
 
 ### excel_12_compare_datatables.py
 - In development, compares two selected datatables to check if they have the same number of rows/columns.
+- Not committed to this repository yet
+
+
 
 ## file-tools
 ### file_01_get_file_names.py
@@ -34,8 +36,21 @@ Files tagged with 1x (e.g. 11) are not committed to this repository yet.
 ### file_02_delete_old_files.py
 - Deletes files from a target folder with a last modified date that is more than x days old.
 
-### file_13_rename.py
-- Barebones script for renaming files by replacing a specified string with another.
+### file_03_rename.py
+- Simple script for renaming files by replacing a specified string with another.
 
-### file_14_rename_with_map_file.py
-- File renamer script that uses an input mapping file.
+### file_04_rename_with_file.py
+- File renamer script that uses an input file.
+- Input file is a mapping file that contains two columns: curr_file_name, new_file_name
+- Not committed to this repository yet
+
+
+
+## misc-tools
+### mal_scraper
+- Website scraper that extracts anime data from [myanimelist.com](https://myanimelist.net/)
+- Extremely custom at the moment
+    - Currently reads from an input .csv file that contains a table of anime data
+    - Each row has a link to the corresponding mal entry
+    - The code extracts a few details from each link, then updates the input .csv file
+- Not committed to this repository yet
