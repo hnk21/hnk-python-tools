@@ -21,11 +21,10 @@ Latest significant commit: 2026-01-11
     - For example, lets say we want to split a .csv file of 321,000 rows into portions of at most 100,000 rows each.
     - The script will produce 3 files of 100,000 rows each and 1 file of 21,000 rows.
  
-### 11_combine_datatables.py
+### 04_combine_excel.py
 - Combines all Excel files (.xlsx / .csv) into one file.
-- Not committed to this repository yet.
 
-### 12_compare_datatables.py
+### 12_compare_excel.py
 - Compares two selected Excel files (.xlsx / .csv) to check if they have the same number of rows/columns.
 - Not committed to this repository yet.
 
