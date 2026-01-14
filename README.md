@@ -1,7 +1,9 @@
 # hnk-python-tools
-Personal repository of Python scripts developed for productivity related tasks.
+Personal repository of productivity related scripts made using Python.
 
-Last updated 2026-01-11
+At the current state, all of the scripts are developed separately within their own folders, for ease of maintenance and personally for more modular use cases. 
+
+Latest significant commit: 2026-01-11
 
 ## excel-tools
 ### excel_01_get_info.py
@@ -17,17 +19,21 @@ Last updated 2026-01-11
 - Primarily used on very large .csv files.
 - Splits a .csv file into multiple .csv files, depending on the user-defined maximum number of rows per .csv file.
     - For example, lets say we want to split a .csv file of 321,000 rows into portions of at most 100,000 rows each.
-    - The script will produce 3 files of 100,000 rows each and 1 file of 21,000 rows
-
-### excel_11_data_entry_tool.py
-- A simple datatable entry tool, will develop this into something bigger if I happen to find a cool and useful use case.
-- Not committed to this repository yet
+    - The script will produce 3 files of 100,000 rows each and 1 file of 21,000 rows.
+ 
+### excel_11_combine_datatables.py
+- Combines all Excel files (.xlsx / .csv) into one file.
+- Not committed to this repository yet.
 
 ### excel_12_compare_datatables.py
-- In development, compares two selected datatables to check if they have the same number of rows/columns.
-- Not committed to this repository yet
+- Compares two selected Excel files (.xlsx / .csv) to check if they have the same number of rows/columns.
+- Not committed to this repository yet.
 
+### excel_13_data_entry_tool.py
+- A simple datatable entry tool, will develop this into something bigger if I happen to find a cool and useful use case.
+- Not committed to this repository yet.
 
+---
 
 ## file-tools
 ### file_01_get_file_names.py
@@ -44,13 +50,19 @@ Last updated 2026-01-11
 - Input file is a mapping file that contains two columns: curr_file_name, new_file_name
 - Not committed to this repository yet
 
+---
 
-
-## misc-tools
+## web-tools
 ### mal_scraper
 - Website scraper that extracts anime data from [myanimelist.com](https://myanimelist.net/)
-- Extremely custom at the moment
-    - Currently reads from an input .csv file that contains a table of anime data
-    - Each row has a link to the corresponding mal entry
-    - The code extracts a few details from each link, then updates the input .csv file
-- Not committed to this repository yet
+- Features
+    - Currently reads from an input .csv file that contains a table of anime data.
+    - Each row has a link to the corresponding mal entry.
+    - The code extracts a few details from each link, then updates the input .csv file.
+- Not committed to this repository yet.
+
+### cna_scraper
+- Website scraper that extracts news article links from [https://www.channelnewsasia.com/](https://www.channelnewsasia.com/)
+- Filters for news articles ofthe following categories:
+    - Business, Singapore, Asia, East Asia, World, Sustainability, Commentary
+- Not committed to this repository yet.
