@@ -22,7 +22,10 @@ Latest significant commit: 2026-01-11
     - The script will produce 3 files of 100,000 rows each and 1 file of 21,000 rows.
  
 ### 04_combine_excel.py
-- Combines all Excel files (.xlsx / .csv) into one file.
+- Combines Excel files (.xlsx / .csv) into one .xlsx file.
+- With choice of:
+    1. Each file is combined as one sheet
+    2. All files combined into one sheet
 
 ### 12_compare_excel.py
 - Compares two selected Excel files (.xlsx / .csv) to check if they have the same number of rows/columns.
