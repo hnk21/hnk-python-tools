@@ -96,3 +96,5 @@ def combine_one_sheet(excel_files, output_path):
     print(f"\n> Successfully combined the files into '{output_path}'\n")
 
 setup()
+
+print("--- END ---")

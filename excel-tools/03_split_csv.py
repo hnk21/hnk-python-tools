@@ -51,4 +51,5 @@ output_filename = filename.replace(".csv", "")
 num_of_files = split_csv(filepath, row_limit, output_filename)
 
 print(f"Finished spltting {filename} into {num_of_files} parts, with maximum of {row_limit} rows each.")
+
 print("--- END ---")
