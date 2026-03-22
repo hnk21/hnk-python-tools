@@ -3,7 +3,7 @@ Personal repository of productivity related scripts made using Python.
 
 At the current state, all of the scripts are developed separately within their own folders, for ease of maintenance and personally for more modular use cases. 
 
-Latest significant commit: 2026-01-11
+Last updated: 2026-03-22
 
 ## excel-tools
 ### 01_get_info.py
@@ -29,11 +29,9 @@ Latest significant commit: 2026-01-11
 
 ### 12_compare_excel.py
 - Compares two selected Excel files (.xlsx / .csv) to check if they have the same number of rows/columns.
-- Not committed to this repository yet.
 
 ### 13_data_entry_tool.py
 - A simple datatable entry tool, will develop this into something bigger if I happen to find a cool and useful use case.
-- Not committed to this repository yet.
 
 ---
 
@@ -50,21 +48,3 @@ Latest significant commit: 2026-01-11
 ### 04_rename_with_file.py
 - File renamer script that uses an input file.
 - Input file is a mapping file that contains two columns: curr_file_name, new_file_name
-- Not committed to this repository yet
-
----
-
-## web-tools
-### mal_scraper
-- Website scraper that extracts anime data from [myanimelist.com](https://myanimelist.net/)
-- Features
-    - Currently reads from an input .csv file that contains a table of anime data.
-    - Each row has a link to the corresponding mal entry.
-    - The code extracts a few details from each link, then updates the input .csv file.
-- Not committed to this repository yet.
-
-### cna_scraper
-- Website scraper that extracts news article links from [https://www.channelnewsasia.com/](https://www.channelnewsasia.com/)
-- Filters for news articles ofthe following categories:
-    - Business, Singapore, Asia, East Asia, World, Sustainability, Commentary
-- Not committed to this repository yet.
